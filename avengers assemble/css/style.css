@@ -1,0 +1,87 @@
+body {
+  color: aliceblue;
+  background-color: black;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+img {
+  max-width: 100%;
+}
+
+.logo {
+  width: 100%;
+  max-width: 1920px;
+  height: 600px;
+  object-fit: cover;
+  padding-bottom: 300px;
+  animation-name:fadeInAnime;
+  animation-duration:6s;
+  animation-fill-mode:forwards;
+  opacity:0;
+}
+
+@keyframes fadeInAnime {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+
+.wrapper h2 {
+  font-size: 45px;
+  padding-bottom: 50px;
+}
+
+.rule {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  border: 1px solid white;
+  /* margin: 0 530px; */
+}
+
+.rule h3 {
+  font-size: 30px;
+}
+
+.wrapper p {
+  font-size: 30px;
+  padding: 30px;
+}
+
+.mode {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0 300px 0;
+}
+
+.mode button {
+  width: 150px;
+  height: 60px;
+  font-size: 20px;
+}
+
+button:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.normal {
+  padding: 0 50px;
+}

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/normal.css">
+  <title>Document</title>
+</head>
+<body>
+  <header>
+    <h1>Choose Your Avenger</h1>
+  </header>
+
+  <main>
+    <div class="discription">
+      <h2>あなたと共に戦ってくれるアベンジャーを選びます。</h2>
+    </div>
+    <div class="heros">
+      <div class="team">
+        <div id="mainImg">
+          <!-- <img src="./images/falcon.jpeg"> -->
+          <h3>character</h3>
+    </div>
+    </div>
+      <ul class="images">
+        <li class="li1"><img src="./images/ironman.jpeg" alt="ironman"></li>
+        <li class="li2"><img src="./images/captain.jpeg" alt="captain america"></li>
+        <li class="li3"><img src="./images/thor.jpeg" alt="thor"></li>
+        <li class="li4"><img src="./images/hulk.jpeg" alt="hulk"></li>
+        <li class="li5"><img src="./images/hawkeye.jpeg" alt="hawkeye"></li>
+        <li class="li6"><img src="./images/blackwidow.jpeg" alt="blackwidow"></li>
+        <li class="li7"><img src="./images/blackpanther.jpeg" alt="blackpanther"></li>
+        <li class="li8"><img src="./images/spiderman.jpeg" alt="spiderman"></li>
+        <li class="li9"><img src="./images/dr strange.jpeg" alt="strange"></li>
+        <li class="li10"><img src="./images/wanda.jpeg" alt="wanda"></li>
+        <li class="li11"><img src="./images/vision.jpeg" alt="vision"></li>
+        <li class="li12"><img src="./images/antmanandwasp.jpeg" alt="antmanandthewasp"></li>
+        <li class="li13"><img src="./images/guardians.jpeg" alt="guardians"></li>
+        <li class="li14"><img src="./images/captainmarvel.jpeg" alt="captainmarvel"></li>
+        <li class="li15"><img src="./images/falcon.jpeg" alt="falcon"></li>
+        <li class="li16"><img src="./images/wintersoldier.jpeg" alt="wintersoldier"></li>
+      </ul>
+    </div>
+    <div class="go_btn">
+      <button>Go Battle</button>
+    </div>
+    <div class="battle_container">
+      <div class="battle_wrapper">
+      <div class="battle">
+        <div class="character">
+          <img class="change" src="./images/ironman.jpeg" alt="ironman">
+        </div>
+        <h2>VS</h2>
+        <div class="thanos">
+          <img src="./images/thanos.jpeg" alt="thanos">
+        </div>
+      </div>
+
+      <!-- <div>
+        <button class="btn">Start</button>
+      </div> -->
+      <div class="janken">
+        <div class="my_janken">
+          <div class="gu">
+            <button onclick="play('rock')">✊</button>
+          </div>
+          <div class="choki">
+            <button onclick="play('scissors')">✌️</button>
+          </div>
+          <div class="pa">
+            <button onclick="play('paper')">🖐️</button>
+          </div>
+          </div>
+        <div class="thanos_janken">
+          <div class="t_gu">
+            <h2>✊</h2>
+          </div>
+          <div class="t_choki">
+            <h2>✌️</h2>
+          </div>
+          <div class="t_pa">
+            <h2>🖐️</h2>
+          </div>
+        </div>
+        </div>
+      <div class="life">
+        <div class="my_life">
+          <p>HP: <span id="player-hp"></span></p>
+          <div class="my_gauge">
+            <div class="gauge-bar" id="player-gauge"></div>
+          </div>
+        </div>
+        <div class="thanos_life">
+          <p>HP: <span id="computer-hp"></span></p>
+          <div class="t_gauge">
+            <div class="gauge-bar" id="computer-gauge"></div>
+          </div>
+        </div>
+      </div>
+   </div>
+   <div class="log">
+    <h2 class="logs"></h2>
+   </div>
+  </div>
+  </main>
+
+  <footer>
+
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="./js/normal.js"></script>
+</body>
+</html>
